@@ -50,4 +50,8 @@ export const texts = {
       },
     },
   },
+  footer: {
+    gaslighting: `Our school chapter UNLV ACM works to connect student by hosting workshops, 
+      lectures, attending seminars, and competing in regional coding competitions.`,
+  },
 }

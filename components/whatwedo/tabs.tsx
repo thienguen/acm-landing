@@ -1,10 +1,12 @@
 'use client'
 
-import Image from 'next/image'
+import { texts } from '@/data/text'
 import { Transition } from '@headlessui/react'
 import { useEffect, useRef, useState } from 'react'
 import { SiLeetcode } from 'react-icons/si'
-import { texts } from '@/data/text'
+import { FaUserFriends } from 'react-icons/fa'
+import { GrWorkshop } from "react-icons/gr";
+import Image from 'next/image'
 
 export default function Tabs() {
   const [tab, setTab] = useState<number>(1)
@@ -27,7 +29,7 @@ export default function Tabs() {
       <div className="relative mx-auto max-w-6xl px-4 sm:px-6">
         <div className="py-12 md:py-20">
           {/* header */}
-          <div className="mx-auto max-w-3xl pb-12 text-center md:pb-16">
+          <div className="mx-auto max-w-3xl pb-12 text-center md:pb-16" data-aos="fade-up">
             <h1 className="h2 mb-4" data-aos="fade-up" data-aos-delay="300">
               {texts.whatwedo.title}
             </h1>
@@ -78,7 +80,7 @@ export default function Tabs() {
                     <div className="text-muted-foreground">{texts.whatwedo.tabs.second.description}</div>
                   </div>
                   <div className="bg-background ml-3 flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full shadow">
-                    <SiLeetcode size={16} />
+                    <GrWorkshop size={16} />
                   </div>
                 </a>
                 <a
@@ -96,7 +98,7 @@ export default function Tabs() {
                     <div className="text-muted-foreground">{texts.whatwedo.tabs.third.description}</div>
                   </div>
                   <div className="bg-background ml-3 flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full shadow">
-                    <SiLeetcode size={16} />
+                    <FaUserFriends size={16} />
                   </div>
                 </a>
               </div>

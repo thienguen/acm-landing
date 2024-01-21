@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
-import { socials } from '@/data/socials'
+import { socials } from '@/components/common/socials'
 
 export const Header = () => {
   const [top, setTop] = useState<boolean>(true)

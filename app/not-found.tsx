@@ -28,7 +28,7 @@ export default function NotFound() {
                       stroke="url(#paint1_linear_116:1137)"
                       strokeWidth="3"
                     />
-                    <circle opacity="0.8" cx="227.5" cy="81.5" r="68.5" fill="#4A6CF7" />
+                    <circle opacity="0.8" cx="227.5" cy="81.5" r="68.5" fill="#A30202" />
                     <mask
                       id="mask0_116:1137"
                       style={{ maskType: 'alpha' }}
@@ -38,7 +38,7 @@ export default function NotFound() {
                       width="137"
                       height="137"
                     >
-                      <circle opacity="0.8" cx="227.5" cy="81.5" r="68.5" fill="#4A6CF7" />
+                      <circle opacity="0.8" cx="227.5" cy="81.5" r="68.5" fill="#A30202" />
                     </mask>
                     <g mask="url(#mask0_116:1137)">
                       <circle opacity="0.8" cx="227.5" cy="81.5" r="68.5" fill="url(#paint2_radial_116:1137)" />
@@ -74,8 +74,8 @@ export default function NotFound() {
                         y2="27.0837"
                         gradientUnits="userSpaceOnUse"
                       >
-                        <stop stopColor="#4A6CF7" stopOpacity="0" />
-                        <stop offset="1" stopColor="#4A6CF7" />
+                        <stop stopColor="#A30202" stopOpacity="0" />
+                        <stop offset="1" stopColor="#A30202" />
                       </linearGradient>
                       <linearGradient
                         id="paint1_linear_116:1137"
@@ -85,8 +85,8 @@ export default function NotFound() {
                         y2="-2.91631"
                         gradientUnits="userSpaceOnUse"
                       >
-                        <stop stopColor="#4A6CF7" stopOpacity="0" />
-                        <stop offset="1" stopColor="#4A6CF7" />
+                        <stop stopColor="#A30202" stopOpacity="0" />
+                        <stop offset="1" stopColor="#A30202" />
                       </linearGradient>
                       <radialGradient
                         id="paint2_radial_116:1137"
@@ -110,7 +110,7 @@ export default function NotFound() {
                 </p>
                 <Link
                   href="/"
-                  className="rounded-md bg-primary px-8 py-3 text-base font-bold text-white shadow-signUp duration-300 hover:bg-white hover:text-primary md:px-9 lg:px-8 xl:px-9"
+                  className="rounded-md bg-black px-8 py-3 text-base font-bold text-white shadow-signUp duration-300 hover:bg-white hover:text-primary md:px-9 lg:px-8 xl:px-9"
                 >
                   Back to Homepage
                 </Link>
@@ -193,8 +193,8 @@ export default function NotFound() {
                 y2="131.859"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#4A6CF7" stopOpacity="0" />
-                <stop offset="1" stopColor="#4A6CF7" />
+                <stop stopColor="#A30202" stopOpacity="0" />
+                <stop offset="1" stopColor="#A30202" />
               </linearGradient>
               <linearGradient
                 id="paint1_linear_116:1140"
@@ -204,8 +204,8 @@ export default function NotFound() {
                 y2="145.47"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#4A6CF7" />
-                <stop offset="1" stopColor="#4A6CF7" stopOpacity="0" />
+                <stop stopColor="#A30202" />
+                <stop offset="1" stopColor="#A30202" stopOpacity="0" />
               </linearGradient>
               <linearGradient
                 id="paint2_linear_116:1140"
@@ -215,8 +215,8 @@ export default function NotFound() {
                 y2="125.507"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#4A6CF7" stopOpacity="0" />
-                <stop offset="1" stopColor="#4A6CF7" />
+                <stop stopColor="#A30202" stopOpacity="0" />
+                <stop offset="1" stopColor="#A30202" />
               </linearGradient>
               <linearGradient
                 id="paint3_linear_116:1140"
@@ -226,8 +226,8 @@ export default function NotFound() {
                 y2="143.95"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#4A6CF7" />
-                <stop offset="1" stopColor="#4A6CF7" stopOpacity="0" />
+                <stop stopColor="#A30202" />
+                <stop offset="1" stopColor="#A30202" stopOpacity="0" />
               </linearGradient>
               <linearGradient
                 id="paint4_linear_116:1140"
@@ -237,8 +237,8 @@ export default function NotFound() {
                 y2="116.426"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#4A6CF7" stopOpacity="0" />
-                <stop offset="1" stopColor="#4A6CF7" />
+                <stop stopColor="#A30202" stopOpacity="0" />
+                <stop offset="1" stopColor="#A30202" />
               </linearGradient>
               <linearGradient
                 id="paint5_linear_116:1140"
@@ -248,8 +248,8 @@ export default function NotFound() {
                 y2="249.947"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#4A6CF7" />
-                <stop offset="1" stopColor="#4A6CF7" stopOpacity="0" />
+                <stop stopColor="#A30202" />
+                <stop offset="1" stopColor="#A30202" stopOpacity="0" />
               </linearGradient>
               <linearGradient
                 id="paint6_linear_116:1140"
@@ -259,8 +259,8 @@ export default function NotFound() {
                 y2="148.369"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#4A6CF7" stopOpacity="0" />
-                <stop offset="1" stopColor="#4A6CF7" />
+                <stop stopColor="#A30202" stopOpacity="0" />
+                <stop offset="1" stopColor="#A30202" />
               </linearGradient>
               <linearGradient
                 id="paint7_linear_116:1140"
@@ -270,8 +270,8 @@ export default function NotFound() {
                 y2="168.552"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#4A6CF7" />
-                <stop offset="1" stopColor="#4A6CF7" stopOpacity="0" />
+                <stop stopColor="#A30202" />
+                <stop offset="1" stopColor="#A30202" stopOpacity="0" />
               </linearGradient>
               <linearGradient
                 id="paint8_linear_116:1140"
@@ -281,8 +281,8 @@ export default function NotFound() {
                 y2="-29.8829"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#4A6CF7" stopOpacity="0" />
-                <stop offset="1" stopColor="#4A6CF7" />
+                <stop stopColor="#A30202" stopOpacity="0" />
+                <stop offset="1" stopColor="#A30202" />
               </linearGradient>
               <linearGradient
                 id="paint9_linear_116:1140"
@@ -292,8 +292,8 @@ export default function NotFound() {
                 y2="34.2741"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#4A6CF7" />
-                <stop offset="1" stopColor="#4A6CF7" stopOpacity="0" />
+                <stop stopColor="#A30202" />
+                <stop offset="1" stopColor="#A30202" stopOpacity="0" />
               </linearGradient>
             </defs>
           </svg>
@@ -373,8 +373,8 @@ export default function NotFound() {
                 y2="129.859"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#4A6CF7" stopOpacity="0" />
-                <stop offset="1" stopColor="#4A6CF7" />
+                <stop stopColor="#A30202" stopOpacity="0" />
+                <stop offset="1" stopColor="#A30202" />
               </linearGradient>
               <linearGradient
                 id="paint1_linear_116:1151"
@@ -384,8 +384,8 @@ export default function NotFound() {
                 y2="143.47"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#4A6CF7" />
-                <stop offset="1" stopColor="#4A6CF7" stopOpacity="0" />
+                <stop stopColor="#A30202" />
+                <stop offset="1" stopColor="#A30202" stopOpacity="0" />
               </linearGradient>
               <linearGradient
                 id="paint2_linear_116:1151"
@@ -395,8 +395,8 @@ export default function NotFound() {
                 y2="123.507"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#4A6CF7" stopOpacity="0" />
-                <stop offset="1" stopColor="#4A6CF7" />
+                <stop stopColor="#A30202" stopOpacity="0" />
+                <stop offset="1" stopColor="#A30202" />
               </linearGradient>
               <linearGradient
                 id="paint3_linear_116:1151"
@@ -406,8 +406,8 @@ export default function NotFound() {
                 y2="141.95"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#4A6CF7" />
-                <stop offset="1" stopColor="#4A6CF7" stopOpacity="0" />
+                <stop stopColor="#A30202" />
+                <stop offset="1" stopColor="#A30202" stopOpacity="0" />
               </linearGradient>
               <linearGradient
                 id="paint4_linear_116:1151"
@@ -417,8 +417,8 @@ export default function NotFound() {
                 y2="270.716"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#4A6CF7" stopOpacity="0" />
-                <stop offset="1" stopColor="#4A6CF7" />
+                <stop stopColor="#A30202" stopOpacity="0" />
+                <stop offset="1" stopColor="#A30202" />
               </linearGradient>
               <linearGradient
                 id="paint5_linear_116:1151"
@@ -428,8 +428,8 @@ export default function NotFound() {
                 y2="247.947"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#4A6CF7" />
-                <stop offset="1" stopColor="#4A6CF7" stopOpacity="0" />
+                <stop stopColor="#A30202" />
+                <stop offset="1" stopColor="#A30202" stopOpacity="0" />
               </linearGradient>
               <linearGradient
                 id="paint6_linear_116:1151"
@@ -439,8 +439,8 @@ export default function NotFound() {
                 y2="146.369"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#4A6CF7" stopOpacity="0" />
-                <stop offset="1" stopColor="#4A6CF7" />
+                <stop stopColor="#A30202" stopOpacity="0" />
+                <stop offset="1" stopColor="#A30202" />
               </linearGradient>
               <linearGradient
                 id="paint7_linear_116:1151"
@@ -450,8 +450,8 @@ export default function NotFound() {
                 y2="166.552"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#4A6CF7" />
-                <stop offset="1" stopColor="#4A6CF7" stopOpacity="0" />
+                <stop stopColor="#A30202" />
+                <stop offset="1" stopColor="#A30202" stopOpacity="0" />
               </linearGradient>
               <linearGradient
                 id="paint8_linear_116:1151"
@@ -461,8 +461,8 @@ export default function NotFound() {
                 y2="110.901"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#4A6CF7" stopOpacity="0" />
-                <stop offset="1" stopColor="#4A6CF7" />
+                <stop stopColor="#A30202" stopOpacity="0" />
+                <stop offset="1" stopColor="#A30202" />
               </linearGradient>
               <linearGradient
                 id="paint9_linear_116:1151"
@@ -472,8 +472,8 @@ export default function NotFound() {
                 y2="32.2741"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#4A6CF7" />
-                <stop offset="1" stopColor="#4A6CF7" stopOpacity="0" />
+                <stop stopColor="#A30202" />
+                <stop offset="1" stopColor="#A30202" stopOpacity="0" />
               </linearGradient>
             </defs>
           </svg>

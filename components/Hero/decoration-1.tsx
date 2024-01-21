@@ -1,7 +1,7 @@
-export const HeroDeco3 = () => {
+export const HeroDeco1 = () => {
   return (
     <div
-      className="pointer-events-none absolute bottom-100 left-0 hidden lg:block"
+      className="bottom-100 pointer-events-none absolute left-0 hidden lg:block"
       aria-hidden="true"
       data-aos="fade-up"
       data-aos-delay="400"

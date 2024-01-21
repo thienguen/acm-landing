@@ -1,4 +1,5 @@
-import { HeroDeco3 } from '@/components/hero/decoration'
+import { HeroDeco1 } from '@/components/hero/decoration-1'
+import { HeroDeco2 } from '@/components/hero/decoration-2'
 import { HeroText } from '@/components/hero/hero-text'
 import { HeroVideo } from '@/components/hero/hero-video'
 import { cn } from '@/libs/util'
@@ -14,7 +15,8 @@ const Hero = () => {
         'md:pt-[150px] xl:pt-[180px] 2xl:pt-[210px]'
       )}
     >
-      <HeroDeco3 />
+      <HeroDeco1 />
+      <HeroDeco2 />
       <HeroText />
       <HeroVideo />
     </section>

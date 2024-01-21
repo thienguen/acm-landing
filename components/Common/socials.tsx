@@ -12,4 +12,23 @@ export const socials = {
     { href: 'https://github.com/ACMUNLV/', icon: <FaGithub />, alt: 'Github' },
     { href: 'https://www.instagram.com/unlvacm/', icon: <FaInstagram />, alt: 'Instagram' },
   ],
+
+  blocks: [
+    {
+      title: 'Menu',
+      links: [
+        { href: '/contact', text: 'Contact us' },
+        { href: '/help', text: 'Help Center' },
+      ],
+    },
+    {
+      title: 'Legal',
+      links: [{ href: '/privacy', text: 'Terms & Conditions' }],
+    },
+    {
+      title: 'Socials',
+      links: [{ href: 'https://github.com/Thienguen/acm-landing', text: 'Github' }],
+    },
+  ],
+  copyright: '© UNLV ACM. All rights reserved.',
 }
