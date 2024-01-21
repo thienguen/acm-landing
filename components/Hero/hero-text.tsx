@@ -9,7 +9,7 @@ export const HeroText = () => {
           <div className="mx-auto max-w-[900px] text-center" data-wow-delay=".2s">
             {/*  */}
             <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-              Welcome to <span className='text-red-600'>UNLV ACM</span>'s Web Page!
+              Welcome to <span className='text-red-600'>{`UNLV ACM'`}</span>s Web Page!
             </h1>
             <p className="mb-5 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
               {texts.hero.subtitle}

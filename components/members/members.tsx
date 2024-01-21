@@ -29,7 +29,7 @@ export default function MemberList() {
                 data-aos="fade-up"
                 data-aos-anchor="[data-aos-id-blocks]"
               >
-                <a href={person.link} target="_blank">
+                <a href={person.link} target="_blank" rel='noreferrer'>
                   <Image
                     src={person.src}
                     alt="Profile picture"
@@ -39,7 +39,7 @@ export default function MemberList() {
                     unoptimized
                   />
                 </a>
-                <a href={person.link} target="_blank">
+                <a href={person.link} target="_blank" rel='noreferrer'>
                   <span className="h4">{person.name}</span>
                 </a>
                 <span className="text-muted-foreground ml-1 text-xs">{person.pronouns}</span>

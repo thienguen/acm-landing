@@ -3,6 +3,7 @@
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
 import { socials } from '@/components/common/socials'
+import Image from 'next/image'
 
 export const Header = () => {
   const [top, setTop] = useState<boolean>(true)
@@ -29,7 +30,7 @@ export const Header = () => {
           <div className="mr-4 shrink-0">
             <a href="https://catenarymaps.org">
               <span style={{ fontSize: '1.3em' }}>
-                <img
+                <Image
                   src="/img/logo.png"
                   className="logoLight"
                   alt={'logo-unlvacm'}
