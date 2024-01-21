@@ -3,7 +3,7 @@ import 'node_modules/react-modal-video/css/modal-video.css'
 
 import type { Metadata } from 'next'
 import { siteMetadata, seoKeywords } from '@/data/seo-meta'
-import { ScrollToTop } from '@/components/common/scroll-to-top'
+import { ScrollToTop } from '@/components/common-s/scroll-to-top'
 import { ThemeProviders } from '@/components/providers/providers'
 import { Header } from '@/components/layout/header'
 

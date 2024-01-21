@@ -1,7 +1,7 @@
-import { HeroDeco1 } from '@/components/hero/decoration-1'
-import { HeroDeco2 } from '@/components/hero/decoration-2'
-import { HeroText } from '@/components/hero/hero-text'
-import { HeroVideo } from '@/components/hero/hero-video'
+import { HeroDeco1 } from '@/components/hero-s/decoration-1'
+import { HeroDeco2 } from '@/components/hero-s/decoration-2'
+import { HeroText } from '@/components/hero-s/hero-text'
+import { HeroVideo } from '@/components/hero-s/hero-video'
 import { cn } from '@/libs/util'
 
 const Hero = () => {

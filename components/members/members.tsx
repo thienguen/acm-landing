@@ -1,4 +1,4 @@
-import { Badge } from '@/components/common/badge'
+import { Badge } from '@/components/common-s/badge'
 import { members } from '@/data/members'
 import Image from 'next/image'
 

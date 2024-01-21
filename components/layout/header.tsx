@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
-import { socials } from '@/components/common/socials'
+import { socials } from '@/components/common-s/socials'
 import Image from 'next/image'
 
 export const Header = () => {
