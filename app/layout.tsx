@@ -38,7 +38,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         head.js. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body className="antialiased">
+      <body suppressHydrationWarning className="antialiased">
         <ThemeProviders>
           <Header />
           {children}

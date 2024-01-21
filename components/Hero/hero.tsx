@@ -10,7 +10,7 @@ const Hero = () => {
       id="hero"
       className={cn(
         'pb-4 pt-[120px]',
-        'dark:bg-gray-dark border-b-2',
+        'border-b-2',
         'relative z-10 overflow-hidden',
         'md:pt-[150px] xl:pt-[180px] 2xl:pt-[210px]'
       )}

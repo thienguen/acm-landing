@@ -60,6 +60,9 @@ module.exports = {
           '5xl': '3.25rem',
           '6xl': '4rem',
         },
+        'rotate': {
+          360: '360deg',
+        },
         'inset': {
           full: '100%',
         },

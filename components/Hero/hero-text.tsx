@@ -19,14 +19,14 @@ export const HeroText = () => {
             <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
               <Link
                 href="#"
-                className="inline-block transform rounded-lg border border-gray-300 bg-red-700 px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:-translate-y-1 hover:bg-red-800"
+                className="inline-block transform rounded-lg border border-gray-300 bg-red-700 px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:-translate-y-1 hover:bg-red-800 dark:border-none"
               >
                 {texts.hero.firstOption}
               </Link>
 
               <Link
                 href="#"
-                className="inline-block transform rounded-lg px-8 py-4 text-base font-semibold text-black duration-300 ease-in-out hover:-translate-y-1 hover:bg-gray-100 border-slate-300 border"
+                className="bg-slate-50 inline-block transform rounded-lg px-8 py-4 text-base font-semibold text-black duration-300 ease-in-out hover:-translate-y-1 hover:bg-gray-100 border-slate-300 "
               >
                 {texts.hero.secondOption}
               </Link>

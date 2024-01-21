@@ -1,8 +1,9 @@
-import Image from 'next/image'
-import Link from 'next/link'
+import { FooterWrapper } from '@/components/common/footer-wrapper'
+import ThemeToggle from '@/components/common/theme-toggle'
 import { socials } from '@/components/common/socials'
 import { texts } from '@/data/text'
-import { FooterWrapper } from '@/components/common/footer-wrapper'
+import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Footer() {
   const currentYear = new Date().getFullYear()
@@ -30,24 +31,22 @@ export default function Footer() {
             </div>
 
             {/* Gaslighting */}
-            <div className="mb-4 text-muted-foreground">
-              {texts.footer.gaslighting}
-            </div>
+            <div className="text-muted-foreground mb-4">{texts.footer.gaslighting}</div>
           </div>
 
           {/* TOP RIGHT */}
           <div className="grid gap-8 sm:grid-cols-3 md:col-span-8 lg:col-span-7">
             {socials.blocks.map((block, index) => (
               <div className="text-sm" key={index}>
-                <h6 className="mb-1 font-medium text-foreground brightness-90">{block.title}</h6>
+                <h6 className="text-foreground mb-1 font-medium brightness-90">{block.title}</h6>
                 <ul>
                   {block.links.map((link, linkIndex) => (
                     <li className="group mb-1" key={linkIndex}>
                       <Link
                         href={link.href}
-                        className="flex items-center text-muted-foreground transition duration-150 ease-in-out group-hover:text-foreground"
+                        className="text-muted-foreground group-hover:text-foreground flex items-center transition duration-150 ease-in-out"
                       >
-                        <div className="mr-2 h-0.5 w-3 bg-pink-400 transition-all group-hover:w-5"></div>
+                        <div className="mr-2 h-0.5 w-3 bg-red-400 transition-all group-hover:w-5"></div>
                         {link.text}
                       </Link>
                     </li>
@@ -61,9 +60,12 @@ export default function Footer() {
         {/* BOTTOM SECTION */}
         <div className="md:flex md:items-center md:justify-between">
           {/* COPY RIGHT */}
-          <div className="mr-4 text-sm text-muted-foreground">
+          <div className="text-muted-foreground mr-4 text-sm">
             &copy; {currentYear} {socials.copyright}
           </div>
+
+          {/* THEME TOGGLE */}
+          <ThemeToggle />
         </div>
       </FooterWrapper>
     </>
