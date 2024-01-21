@@ -1,4 +1,4 @@
-import { FooterWrapper } from '@/components/common/footer-wrapper'
+import { FooterWrapper } from '@/components/common/footerwrapper'
 import ThemeToggle from '@/components/common/theme-toggle'
 import { socials } from '@/components/common/socials'
 import { texts } from '@/data/text'
