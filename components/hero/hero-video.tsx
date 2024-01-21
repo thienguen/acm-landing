@@ -1,4 +1,4 @@
-import Video from '@/components/common-s/video'
+import Video from '@/components/common/video'
 
 export const HeroVideo = () => {
   return (

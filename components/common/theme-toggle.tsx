@@ -1,6 +1,6 @@
 'use client'
 
-import { Button } from '@/components/common-s/custom-button'
+import { Button } from '@/components/common/custom-button'
 import { cn } from '@/libs/util'
 import { useTheme } from 'next-themes'
 import { CiSun } from 'react-icons/ci'
