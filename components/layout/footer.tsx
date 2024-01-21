@@ -46,7 +46,7 @@ export default function Footer() {
                         href={link.href}
                         className="text-muted-foreground group-hover:text-foreground flex items-center transition duration-150 ease-in-out"
                       >
-                        <div className="mr-2 h-0.5 w-3 bg-red-400 transition-all group-hover:w-5"></div>
+                      <div className="mr-2 h-0.5 w-3 bg-red-400 transition-all group-hover:w-5"></div>
                         {link.text}
                       </Link>
                     </li>
