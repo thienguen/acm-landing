@@ -1,16 +1,13 @@
 import Hero from '@/components/hero/hero'
-import Tabs from '@/components/whatwedo/heading'
-import AboutButton from '@/components/about/button'
+import WhatWedo from '@/components/whatwedo/whatwedo'
 import MemberList from '@/components/members/members'
-
 
 export default function Home() {
   return (
     <>
       <Hero />
-      <Tabs />
+      <WhatWedo />
       <MemberList />
-      <AboutButton />
     </>
   )
 }

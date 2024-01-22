@@ -14,7 +14,7 @@ export const members: Person[] = [
     school: 'University of Nevada, Las Vegas',
     src: 'https://github.com/Thienguen.png',
     link: 'https://vankythien.dev',
-    title: 'Vice President',
+    title: 'Member',
     titles: ['FullStack Developer', 'Algorithms', 'Design'],
   },
   {
@@ -22,7 +22,7 @@ export const members: Person[] = [
     school: 'University of Nevada, Las Vegas',
     src: 'https://github.com/BitsyBirb.png',
     link: 'https://github.com/BitsyBirb',
-    title: 'President',
-    titles: ['', 'Algorithms', 'Design'],
+    title: 'Member',
+    titles: ['Algorithms', 'Design'],
   },
 ]

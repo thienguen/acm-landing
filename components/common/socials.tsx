@@ -30,5 +30,5 @@ export const socials = {
       links: [{ href: 'https://github.com/Thienguen/acm-landing', text: 'Github' }],
     },
   ],
-  copyright: '© UNLV ACM. All rights reserved.',
+  copyright: 'All rights reserved.',
 }

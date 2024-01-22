@@ -41,3 +41,22 @@
     @apply opacity-100;
   }
 }
+
+/* CUSTOM */
+html {
+  scroll-behavior: smooth;
+  letter-spacing: 0.3px;
+}
+
+::-webkit-scrollbar {
+  @apply w-1;
+}
+
+::-webkit-scrollbar-track {
+  @apply rounded-[3px] bg-transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply rounded-[3px] border-2 bg-neutral-600 dark:bg-white;
+
+}

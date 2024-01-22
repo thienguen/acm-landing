@@ -17,12 +17,9 @@ export const texts = {
     `,
   },
   whatwedo: {
-    title: 'What We Do at UNLV ACM',
+    title: 'What We Do',
     description: `
-    We're a fully student team focused on hosting workshops, lectures,
-    and attend seminars to learn from professionals in the industry. 
-    We also compete in regional coding competitions and gain 
-    coding experience. We also help our members land internships!
+    Check out what we do at UNLV ACM!
     `,
     tabs: {
       first: {
@@ -33,6 +30,8 @@ export const texts = {
         There students have a chance to show off their coding skills 
         and gain competition experience with other university students.
         `,
+        linkText: 'Learn More',
+        img: '/img/ICPC.png',
       },
       second: {
         title: 'Coding Workshops',
@@ -41,12 +40,18 @@ export const texts = {
         them how to code in other languages. These workshops will teach 
         you how to make impressive projects like web apps or native games!
         `,
+        linkText: 'Learn More',
+        img: '/img/workshop.svg',
       },
       third: {
         title: 'Networking',
         description: `
-        We host networking events with professionals in the industry and help you find internships!
+        Our events link students with industry experts for internship opportunities. 
+        We also facilitate access to academic research, mentorship, 
+        and grant opportunities through collaborations with university faculty.
         `,
+        linkText: 'Learn More',
+        img: '/img/network.svg',
       },
     },
   },

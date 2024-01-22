@@ -26,13 +26,13 @@ export const Header = () => {
     >
       <div className="mx-auto max-w-6xl px-5 sm:px-6">
         <div className="flex h-16 items-center justify-between md:h-20">
-          {/* Site branding */}
+          {/* */}
           <div className="mr-4 shrink-0">
-            <a href="https://catenarymaps.org">
+            <a href="/">
               <span style={{ fontSize: '1.3em' }}>
                 <Image
                   src="/img/logo.png"
-                  className="logoLight"
+                  className="dark:invert"
                   alt={'logo-unlvacm'}
                   width={50}
                   height={30}
@@ -71,6 +71,7 @@ export const Header = () => {
                   <span className={index !== 0 ? 'ml-4' : ''} key={index}>
                     <Link
                       href={socialLink.href}
+                      
                       className="hover:bg-tertiary flex items-center justify-center rounded-full p-2 text-gray-400 transition duration-150 ease-in-out hover:text-red-400"
                       aria-label={socialLink.alt}
                     >

@@ -1,6 +1,6 @@
 import { HeroDeco1 } from '@/components/hero/decoration-1'
 import { HeroDeco2 } from '@/components/hero/decoration-2'
-import { HeroText } from '@/components/hero/hero-text'
+import { HeroHeader } from '@/components/hero/hero-header'
 import { HeroVideo } from '@/components/hero/hero-video'
 import { cn } from '@/libs/util'
 
@@ -9,15 +9,15 @@ const Hero = () => {
     <section
       id="hero"
       className={cn(
-        'pb-4 pt-[120px]',
-        'border-b-2',
+        'pb-12 pt-[120px] md:pb-20',
+        'border-b-[1px] dark:border-slate-500',
         'relative z-10 overflow-hidden',
         'md:pt-[150px] xl:pt-[180px] 2xl:pt-[210px]'
       )}
     >
       <HeroDeco1 />
       <HeroDeco2 />
-      <HeroText />
+      <HeroHeader />
       <HeroVideo />
     </section>
   )

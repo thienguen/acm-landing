@@ -1,4 +1,4 @@
-import { FooterWrapper } from '@/components/common/footerwrapper'
+import { FooterWrapper } from '@/components/common/footer-wrapper'
 import ThemeToggle from '@/components/common/theme-toggle'
 import { socials } from '@/components/common/socials'
 import { texts } from '@/data/text'
@@ -9,7 +9,7 @@ export default function Footer() {
   const currentYear = new Date().getFullYear()
   return (
     <>
-      <hr className="sm:mb-15 sm:mt-15 mb-10 mt-10" />
+      <hr className="" />
       <FooterWrapper>
         {/* TOP SECTION */}
         <div className="mb-8 grid gap-8 md:mb-12 md:grid-cols-12 lg:gap-20">
@@ -46,7 +46,7 @@ export default function Footer() {
                         href={link.href}
                         className="text-muted-foreground group-hover:text-foreground flex items-center transition duration-150 ease-in-out"
                       >
-                      <div className="mr-2 h-0.5 w-3 bg-red-400 transition-all group-hover:w-5"></div>
+                        <div className="mr-2 h-0.5 w-3 bg-red-400 transition-all group-hover:w-5"></div>
                         {link.text}
                       </Link>
                     </li>
@@ -59,13 +59,30 @@ export default function Footer() {
 
         {/* BOTTOM SECTION */}
         <div className="md:flex md:items-center md:justify-between">
-          {/* COPY RIGHT */}
-          <div className="text-muted-foreground mr-4 text-sm">
-            &copy; {currentYear} {socials.copyright}
-          </div>
+          {/* Social */}
+          <ul className="mb-4 flex md:order-1 md:mb-0 md:ml-4">
+            {socials.socialLinks.map((socialLink, index) => (
+              <li className={index !== 0 ? 'ml-4' : ''} key={index}>
+                <Link
+                  href={socialLink.href}
+                  className="hover:bg-tertiary flex items-center justify-center rounded-full p-2 text-gray-400 transition duration-150 ease-in-out hover:text-red-400"
+                  aria-label={socialLink.alt}
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  {socialLink.icon}
+                </Link>
+              </li>
+            ))}
+          </ul>
 
-          {/* THEME TOGGLE */}
-          <ThemeToggle />
+          <div className="mr-4 text-sm">
+            &copy; {socials.copyright} {/* Adjusted */}
+          </div>
+          
+          <div className="flex justify-center mx-auto ">
+            <ThemeToggle />
+          </div>
         </div>
       </FooterWrapper>
     </>

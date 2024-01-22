@@ -60,9 +60,6 @@ module.exports = {
           '5xl': '3.25rem',
           '6xl': '4rem',
         },
-        'rotate': {
-          360: '360deg',
-        },
         'inset': {
           full: '100%',
         },
@@ -100,7 +97,10 @@ module.exports = {
           'accordion-up': 'accordion-up 0.2s ease-out',
         },
       },
-
+      rotate: {
+        360: '360deg',
+        720: '720deg',
+      },
       boxShadow: {
         'signUp': '0px 5px 10px rgba(4, 10, 34, 0.2)',
         'one': '0px 2px 3px rgba(7, 7, 77, 0.05)',
